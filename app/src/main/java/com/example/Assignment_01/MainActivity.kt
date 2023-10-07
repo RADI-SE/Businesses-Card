@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             Assignment_01Theme {
+                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -58,7 +59,7 @@ fun Greeting() {
                 .size(300.dp)
                 .clip(CircleShape)
         )
-        val name ="I'm Razi"
+        val name ="I'm RaziI"
         Text(
 
             text = "\n$name",
