@@ -59,14 +59,14 @@ fun Greeting() {
                 .size(300.dp)
                 .clip(CircleShape)
         )
-        val name ="I'm RaziI"
+        val name ="I'm Razi"
         Text(
 
             text = "\n$name",
             color = Color.Black,
             fontSize = 30.sp ,
         )
-        val goal="Android Developer Extraordinaire"
+        val goal="Android Developer Extraordinairee"
         Text(
             text = "\n$goal\n\n",
             fontSize = 20.sp,
