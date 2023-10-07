@@ -67,7 +67,7 @@ fun Greeting() {
             fontSize = 30.sp ,
         )
         val goal="Android Developer Extraordinaire"
-        Text(git
+        Text(
             text = "\n$goal\n\n",
             fontSize = 20.sp,
             color = Color.Black
